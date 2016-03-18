@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='')}}css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+      <form action="" method="post">
+        
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Your Name?</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Your Email?</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="job">What State are your from?</label>
+          <select id="job" name="user_job">
+              <option value=""></option>
+              <option value="New York">New York</option>
+              <option value="Massachusetts">Connecticut</option>
+              <option value="Massachusetts">Massachusetts</option>
+              <option value="Massachusetts">Rhode Island</option>
+              <option value="Massachusetts">Vermont</option>
+              <option value="Massachusetts">Maine</option>
+              <option value="Massachusetts">New Hampshire</option>
+          </select>
+
+          <label for="job">Have You been sued for credit card debt?</label>
+          <select id="job" name="user_job">
+              <option value=""></option>
+              <option value="yes">Yes</option>
+              <option value="No">No</option>
+          </select>
+      
+      </form>
+      
+    </body>
+</html>
